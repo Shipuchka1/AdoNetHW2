@@ -67,6 +67,8 @@ namespace AdoNetLess2HW
 
         }
 
+
+
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             ConStr = String.Format(prs[(ProviderComboBox.SelectedIndex)], DataBaseTextBox.Text, UserTextBox.Text, PasswordBox.Password, HostNameTextBox.Text);
